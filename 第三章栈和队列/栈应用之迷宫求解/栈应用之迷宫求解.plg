@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 栈应用之迷宫求解 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSPF0B3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/栈应用之迷宫求解.pdb" /debug /machine:I386 /out:"Debug/栈应用之迷宫求解.exe" /pdbtype:sept 
+".\Debug\demo.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSPF0B3.tmp"
+<h3>Output Window</h3>
+Linking...
+main.obj : error LNK2005: _main already defined in demo.obj
+main.obj : error LNK2001: unresolved external symbol "int __cdecl StackTraverse(struct SqStack,int (__cdecl*)(struct SElemType))" (?StackTraverse@@YAHUSqStack@@P6AHUSElemType@@@Z@Z)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl display_path(struct SElemType)" (?display_path@@YAHUSElemType@@@Z)
+main.obj : error LNK2001: unresolved external symbol "int __cdecl InitStack(struct SqStack &)" (?InitStack@@YAHAAUSqStack@@@Z)
+Debug/栈应用之迷宫求解.exe : fatal error LNK1120: 3 unresolved externals
+执行 link.exe 时出错.
+
+
+
+<h3>Results</h3>
+栈应用之迷宫求解.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 链队列 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP78C7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/链队列.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\c\数据结构\第三章栈和队列\链队列\demo.cpp"
+]
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP78C7.tmp" 
+<h3>Output Window</h3>
+Compiling...
+demo.cpp
+F:\c\数据结构\第三章栈和队列\链队列\demo.cpp(20) : error C2146: syntax error : missing ';' before identifier 'InitQueue'
+F:\c\数据结构\第三章栈和队列\链队列\demo.cpp(20) : error C2501: 'Status' : missing storage-class or type specifiers
+F:\c\数据结构\第三章栈和队列\链队列\demo.cpp(20) : fatal error C1004: unexpected end of file found
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+demo.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
