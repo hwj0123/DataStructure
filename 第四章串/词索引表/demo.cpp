@@ -46,8 +46,20 @@ typedef struct{
 
 char *buf;//书目串缓冲区
 WordListType wdlist;//词表
-
 //////////////////////////////
+//过于复杂,略
+void main(){
+//	FILE *f,*g;
+//	IdxListType idxlist;
+//	if(f=fopen("D:\test.txt","r")){
+//		if(g=fopen("D:\test.txt","w")){
+//			InitIdxList(&idxlist);//初始化索引表idxlist为空表
+//			while(!feof(f)){
+//				//..........
+//			}
+//		}
+//	}
+}
 
 
 
