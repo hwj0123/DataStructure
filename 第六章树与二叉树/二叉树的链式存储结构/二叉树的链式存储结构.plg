@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 二叉树的链式存储结构 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP3EC8.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/二叉树的链式存储结构.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"F:\c\数据结构\第六章树与二叉树\二叉树的链式存储结构\demo.cpp"
+]
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP3EC8.tmp" 
+<h3>Output Window</h3>
+Compiling...
+demo.cpp
+F:\c\数据结构\第六章树与二叉树\二叉树的链式存储结构\demo.cpp(194) : warning C4101: 'i' : unreferenced local variable
+F:\c\数据结构\第六章树与二叉树\二叉树的链式存储结构\demo.cpp(196) : warning C4101: 'e1' : unreferenced local variable
+
+
+
+<h3>Results</h3>
+demo.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
